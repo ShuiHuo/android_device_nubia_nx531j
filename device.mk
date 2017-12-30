@@ -126,7 +126,7 @@ PRODUCT_COPY_FILES += \
 
 # Browser
 PRODUCT_PACKAGES += \
-    via
+    firefox
 
 #Gallery2
 PRODUCT_PACKAGES += \
