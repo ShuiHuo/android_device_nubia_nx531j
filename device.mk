@@ -263,6 +263,7 @@ PRODUCT_PACKAGES += \
     ebtables \
     ethertypes \
     libebtc
+
 # IR Control
 PRODUCT_PACKAGES += \
     libserial_port \
@@ -368,6 +369,7 @@ PRODUCT_PACKAGES += \
 # stlport
 PRODUCT_PACKAGES += \
     libstlport
+
 # TWRP
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/twrp.fstab:recovery/root/etc/twrp.fstab
