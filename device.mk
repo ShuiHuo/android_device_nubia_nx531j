@@ -64,9 +64,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# Device was launched with M
+# Device was launched with N
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.product.first_api_level=23
+    ro.product.first_api_level=25
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
@@ -75,6 +75,7 @@ TARGET_SCREEN_WIDTH := 1080
 # Dalvik/HWUI
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
+
 # Alipay & WeChat fingerprint payment
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager \
@@ -83,6 +84,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     org.ifaa.android.manager \
     soter
+
 # Audio
 PRODUCT_PACKAGES += \
     audiod \
@@ -123,10 +125,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml
-
-# Browser
-PRODUCT_PACKAGES += \
-    firefox
 
 #Gallery2
 PRODUCT_PACKAGES += \
@@ -219,8 +217,6 @@ PRODUCT_PACKAGES += \
 # Override heap growth limit due to high display density on device
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapgrowthlimit=256m
-
-
 
 # DPM
 PRODUCT_BOOT_JARS += \
