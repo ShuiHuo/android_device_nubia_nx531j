@@ -27,6 +27,6 @@
 
 key 139   BACK        VIRTUAL
 key 172   HOME        VIRTUAL
-key 158   APP_SWITCH  VIRTUAL  
+key 158   APP_SWITCH  VIRTUAL
 
 key 68    WAKEUP
