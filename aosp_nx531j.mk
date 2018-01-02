@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/nubia/nx531j/device.mk)
 
 # Inherit some common MoKee stuff.
-$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 PRODUCT_NAME := mk_nx531j
 PRODUCT_DEVICE := nx531j

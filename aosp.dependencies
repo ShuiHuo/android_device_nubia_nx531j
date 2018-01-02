@@ -1,0 +1,19 @@
+[
+  {
+  {
+    "repository": "android_external_stlport",
+    "target_path": "external/stlport"
+  },
+  {
+    "remote": "github",
+    "repository":  "ShuiHuo/android_vendor_nubia_nx531j",
+    "target_path": "vendor/nubia/nx531j",
+    "branch": "mkn-mr1"
+  },
+  {
+    "remote": "github",
+    "repository": "MoKee/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "mkn-mr1"
+  }
+]
