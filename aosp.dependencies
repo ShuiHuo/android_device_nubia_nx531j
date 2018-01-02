@@ -1,12 +1,6 @@
 [
   {
     "remote": "github",
-    "repository": "MoKee/android_external_stlport",
-    "target_path": "external/stlport",
-    "branch": "mkn-mr1"
-  },
-  {
-    "remote": "github",
     "repository":  "ShuiHuo/android_vendor_nubia_nx531j",
     "target_path": "vendor/nubia/nx531j",
     "branch": "mkn-mr1"
