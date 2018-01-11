@@ -127,10 +127,10 @@ PRODUCT_COPY_FILES += \
     external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml
 
 #Gallery2
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     Gallery3
     
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/Gallery3/libamapv301.so:system/app/Gallery3/lib/arm64/libamapv301.so \
     $(LOCAL_PATH)/Gallery3/libamapv301ex.so:system/app/Gallery3/lib/arm64/libamapv301ex.so \
     $(LOCAL_PATH)/Gallery3/libdrminputstream.so:system/app/Gallery3/lib/arm64/libdrminputstream.so \
@@ -148,9 +148,10 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     libshim_camera \
-    NeoVision6
+    Snap
+#    NeoVision6
 
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/camera/libffmpeg.so:system/app/NeoVision6/lib/arm64/libffmpeg.so \
     $(LOCAL_PATH)/camera/libnubiaffmpeg.so:system/app/NeoVision6/lib/arm64/libnubiaffmpeg.so
 
