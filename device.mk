@@ -149,11 +149,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libshim_camera \
     Snap
-#    NeoVision6
-
-#PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/camera/libffmpeg.so:system/app/NeoVision6/lib/arm64/libffmpeg.so \
-    $(LOCAL_PATH)/camera/libnubiaffmpeg.so:system/app/NeoVision6/lib/arm64/libnubiaffmpeg.so
 
 PRODUCT_PACKAGES += \
     imx179_chromatix.xml \
@@ -354,7 +349,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    telephony-static-config
 
 # Sensors
 PRODUCT_PACKAGES += \

@@ -29,6 +29,7 @@ bt.max.hfpclient.connections=1
 qcom.bluetooth.soc=rome
 ro.bluetooth.wipower=true
 ro.bluetooth.emb_wp_mode=true
+persist.bt.enableAptXHD=true
 persist.bt.a2dp_offload_cap=sbc-aptx-aptxhd
 
 # Camera
@@ -38,6 +39,10 @@ Camera.no_navigation_bar=true
 ro.config.devicename=nubia Z11
 persist.camera.stats.test=5
 camera.hal1.packagelist=com.skype.raider,com.whatsapp,com.tencent.mm,com.google.android.GoogleCamera
+
+# HAX - remove ASAP
+media.stagefright.legacyencoder=true
+media.stagefright.less-secure=true
 
 # CNE
 persist.cne.feature=1
