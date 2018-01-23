@@ -25,7 +25,7 @@ $(call inherit-product, device/nubia/nx531j/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/pure/configs/pure_phone.mk)
 
-PRODUCT_NAME := aosp_nx531j
+PRODUCT_NAME := nx531j
 PRODUCT_DEVICE := nx531j
 PRODUCT_MANUFACTURER := nubia
 PRODUCT_BRAND := nubia
