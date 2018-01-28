@@ -45,7 +45,7 @@ public class IFAAManagerFactory  extends IFAAManager{
     public String getDeviceModel() {
         //return Build.MODEL;
         Slog.e(TAG, "device model");
-        return "NUBIA-NX531j";
+        return "NX531J";
     }
 
     public int getVersion() {

@@ -457,6 +457,11 @@ etc/firmware/a530v2_seq.fw2
 etc/firmware/a530v3_gpmu.fw2
 etc/firmware/a530v3_seq.fw2
 
+# IFAA
+bin/ifaadaemon
+lib/libteeclientjni.so
+lib64/libteeclientjni.so
+
 # Listen
 vendor/lib/hw/sound_trigger.primary.msm8996.so
 vendor/lib/libadpcmdec.so
